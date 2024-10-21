@@ -105,3 +105,14 @@ nav a:hover {
 .photo:hover img{
     filter: blur(2px); /* Sfoca l'immagine al passaggio del cursore */
 }
+
+.about {
+    background-image: url('images/1568654879784.jpg');
+    height: 100%;
+    background-size: cover;
+    display: flex;
+background-position: center;
+align-items: center;
+justify-content: center;
+background-repeat: no-repeat;
+}
