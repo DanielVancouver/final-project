@@ -98,13 +98,11 @@ nav a:hover {
 }
 
 .photo:hover .caption {
-    opacity: 1;
-    /* Opacity changes when with the cursor */
+    opacity: 1;    /* Opacity changes when with the cursor */
 }
 
 .photo:hover img {
-    filter: blur(2px);
-    /* Sfoca l'immagine al passaggio del cursore */
+    filter: blur(2px); /* "Blur the image on hover */
 }
 
 .about {
@@ -143,7 +141,24 @@ nav a:hover {
 footer {
     background-color: whitesmoke;
     width: 100%;
-   text-align: center;
-    top: 0;
-    z-index: 1000;
+    text-align: center;
+   top: 0;
+   position: relative;
+   padding: 20px;
 }
+footer, h2 {
+    margin-bottom: 20px;
+}
+
+footer, p {
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+footer .totop {
+    display: block;
+    margin-left: 20px;
+    top: 50%;
+    transform: translateY(-50%); 
+    position: absolute;
+    }
