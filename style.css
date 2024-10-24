@@ -138,29 +138,24 @@ nav a:hover {
     font-size: larger;
 }
 
-footer {
-    background-color: whitesmoke;
+#contact {
+    display: grid;
+    grid-template-columns: 1fr; /* just one column*/
     text-align: center;
-    top: 0;
-    position: relative;
+    background-color: whitesmoke;
     padding: 20px;
-}
-
-footer,
-h2 {
-    margin-bottom: 20px;
+    height: 200px;
 }
 
 footer,
 p {
     font-size: large;
-    margin-bottom: 10px;
 }
 
-footer .totop {
+.totop {
     display: block;
     margin-left: 20px;
     top: 50%;
-    transform: translateY(-50%);
-    position: absolute;
+    text-align: left;
+    transform: translateY(-200%);
 }
